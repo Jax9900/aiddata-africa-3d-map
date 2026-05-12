@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+
+# Local screenshots and standalone experiments
+*.png
+standalone.html
+africa-geojson.js
