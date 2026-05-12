@@ -3,6 +3,7 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: process.env.GITHUB_PAGES === "true" ? "/aiddata-africa-3d-map/" : "/",
   plugins: [react()],
   resolve: {
     alias: {
